@@ -4,11 +4,12 @@
 
 ![App Screenshot](screenshot/main-page.png)
 
----
+## [Visit the App Live on Streamlit Cloud](https://mrraihan29-demand-forecasting.streamlit.app)
 
 ## 📌 Table of Contents
 
 - [🧠 Demand Forecasting \& Inventory Optimization App](#-demand-forecasting--inventory-optimization-app)
+  - [Visit the App Live on Streamlit Cloud](#visit-the-app-live-on-streamlit-cloud)
   - [📌 Table of Contents](#-table-of-contents)
   - [1. 📖 Overview](#1--overview)
   - [2. ✨ Features](#2--features)
