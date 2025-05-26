@@ -96,7 +96,7 @@ def generate_forecast(model, historical_df, forecast_horizon_days, features_cols
         if lag_7_date in combined_df_for_lags.index:
             temp_df_row['Sales_Lag_7'] = combined_df_for_lags.loc[lag_7_date, 'Sales']
         else:
-             temp_df_row['Sales_Lag_7'] = historical_df['Sales'].iloc[-7] if len(historical_df) >= 7 else historical_df['Sales'].mean()
+            temp_df_row['Sales_Lag_7'] = historical_df['Sales'].iloc[-7] if len(historical_df) >= 7 else historical_df['Sales'].mean()
 
 
         # Sales_Lag_365: Strictly from historical_df. If outside historical range, use mean.
@@ -171,8 +171,8 @@ def calculate_inventory_metrics(forecast_series, lead_time_days, service_level_p
 # --- File Uploads (Moved to top level to ensure variables are defined) ---
 
 # Use default paths
-default_data_path = "data/raw/synthetic_seasonal_sales.csv"
-default_model_path = "models/random_forest_forecasting_model.pkl"
+default_data_path = "../data/raw/synthetic_seasonal_sales.csv"
+default_model_path = "../models/random_forest_forecasting_model.pkl"
 
 st.sidebar.subheader("📂 Upload Custom Files")
 
