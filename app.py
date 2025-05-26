@@ -171,8 +171,8 @@ def calculate_inventory_metrics(forecast_series, lead_time_days, service_level_p
 # --- File Uploads (Moved to top level to ensure variables are defined) ---
 
 # Use default paths
-default_data_path = "../data/raw/synthetic_seasonal_sales.csv"
-default_model_path = "../models/random_forest_forecasting_model.pkl"
+default_data_path = "data/raw/synthetic_seasonal_sales.csv"
+default_model_path = "models/random_forest_forecasting_model.pkl"
 
 st.sidebar.subheader("📂 Upload Custom Files")
 
