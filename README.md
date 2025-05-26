@@ -3,7 +3,6 @@
 > **A Streamlit-based machine learning tool to predict demand and optimize inventory decisions in a seasonal sales environment.**
 
 ![App Screenshot](screenshot/main-page.png)
-_Replace this with an actual screenshot of the Streamlit app in action._
 
 ---
 
